@@ -1,5 +1,5 @@
 # Source and generated PDFs (provide source files locally)
-*.pdf
+
 
 # Generated books and validation reports
 /Reading_Books/
