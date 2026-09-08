@@ -7,13 +7,6 @@
 /Writing_Books/
 /Speaking_Books/
 
-# Generated databases and import reports
-/*_books.db
-/*_books.import.json
-*.db-wal
-*.db-shm
-*.db-journal
-*.cdb
 
 # Python dependencies, environments and caches
 /.packages/
