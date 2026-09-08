@@ -1,5 +1,40 @@
+# Source and generated PDFs (provide source files locally)
 *.pdf
-.venv
-.env
-__pycache__/
+
+# Generated books and validation reports
+/Reading_Books/
+/Listening_Books/
+/Writing_Books/
+/Speaking_Books/
+
+# Generated databases and import reports
+/*_books.db
+/*_books.import.json
+*.db-wal
+*.db-shm
+*.db-journal
 *.cdb
+
+# Python dependencies, environments and caches
+/.packages/
+/.venv/
+/venv/
+/env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files and OS metadata
+*.tmp
+*.log
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini
